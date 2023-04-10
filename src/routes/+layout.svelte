@@ -3,8 +3,8 @@
 	import './styles.css';
 		// Your selected Skeleton theme:
 	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
-
-	// This contains the bulk of Skeletons required styles:
+  //import '@skeletonlabs/skeleton/themes/theme-modern.css';	
+	// This contains the bulk ofs Skeletons required styles:
 	import '@skeletonlabs/skeleton/styles/all.css';
 
 	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
@@ -61,9 +61,9 @@
 	<slot />
 	<!-- ---- / ---- -->
 
-	<!--<svelte:fragment slot="footer">
-		Footer
-	</svelte:fragment>-->
+	<svelte:fragment slot="footer">
+		<div class="bg-surface-100-800-token  space-y-4 p-4">Footer</div>
+	</svelte:fragment>
 </AppShell>
 
 
