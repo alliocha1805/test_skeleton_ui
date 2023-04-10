@@ -14,11 +14,11 @@
 	import { AppBar } from '@skeletonlabs/skeleton';
 	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import { Avatar } from '@skeletonlabs/skeleton';
+	
 	function drawerOpen() 
   {
 		drawerStore.open({});
 	}
-
 </script>
 
 
@@ -47,7 +47,8 @@
 			<Avatar
 				border="border-4 border-surface-300-600-token hover:!border-primary-500"
 				cursor="cursor-pointer"
-			/></svelte:fragment>
+				initials="AP"/>
+			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
